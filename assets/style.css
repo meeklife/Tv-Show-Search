@@ -1,0 +1,64 @@
+body {
+    background-color: #003049;
+}
+
+#card {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+button {
+    color: #003049;
+    display: inline-block;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem 2rem;
+    background-color: aqua;
+
+    border: transparent;
+    box-shadow: 0 0 3px 1px #2c3333;
+    cursor: pointer;
+}
+
+button:hover {
+    color: aqua;
+    border: 1px solid aqua;
+    background-color: transparent;
+    transition: color, border, background-color 250ms ease-in-out;
+    cursor: pointer;
+}
+
+input {
+    height: 25px;
+    width: 80%;
+    border: 1px solid #ccc;
+    outline: 0;
+}
+
+input::placeholder {
+    color: #003049;
+    padding-left: 10px;
+}
+
+h1 {
+    color: aqua;
+}
+
+.searches {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    /* color: #e5e5e5; */
+    color: aqua;
+}
