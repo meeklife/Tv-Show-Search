@@ -1,4 +1,4 @@
 # TV Show Search API
 
-This is meant to be used in an application.
+This basic TV Show Search app uses the API ( https://www.tvmaze.com/api ) from TvMaze to list out all the TV Shows related to your search
 
